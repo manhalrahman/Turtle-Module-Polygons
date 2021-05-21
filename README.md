@@ -1,4 +1,4 @@
-# Turtle-Module-Polygons
+# Turtle-Module-Shapes
 Here I generate different shapes or drawings using Turtle graphics which comes inbuilt with Python
 
 ## [Random Walk](https://github.com/manhalrahman/Turtle-Module-Shapes/blob/main/random_walk.py)
