@@ -10,6 +10,7 @@ my_screen.colormode(255)
 
 def random_walk(no_of_steps=50, min_step=10, max_step=30, pen_width=5):
     global timmy
+    timmy.speed("fastest") #Speeds up the simulation
     timmy.width(pen_width)
     for _ in range(no_of_steps):
         colors = (randint(0, 255), randint(0, 255), randint(0, 255))
@@ -24,5 +25,5 @@ def random_walk(no_of_steps=50, min_step=10, max_step=30, pen_width=5):
             timmy.backward(length_of_step)
 
 
-random_walk()
+random_walk(no_of_steps=300)
 my_screen.exitonclick()
